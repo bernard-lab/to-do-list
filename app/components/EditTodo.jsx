@@ -9,7 +9,7 @@ export default function EditTodo({ id, task, handleEdit, handleModal }) {
 
   return (
     <div className="fixed top-0 left-0 w-full h-full flex justify-center items-center bg-slate-200/20">
-      <div className="bg-orange-400 w-3/4 relative">
+      <div className="bg-purple-900 rounded-xl w-3/4 relative">
         <input
           value={newTask}
           placeholder="Enter new task here..."
